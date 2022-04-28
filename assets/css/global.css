@@ -1,16 +1,54 @@
+/*Racine*/
+
 :root {
     --font-family: 'Italianno', cursive;
 }
 
-
+/*Header*/
 
 header {
     font-family: var(--font-family);
 }
 
+/*NavBar*/
+
+ul.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 2rem;
+}
+ul.NavBar li {float: left;}
+
+ul.NavBar li a {
+    display: flex;
+    color:rgba(red, green, rgb(1, 1, 56), alpha);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.NavBar li a:hover:not(.active) {background-color: rgb(107, 154, 241);}
+
+ul.NavBar li a.active {background-color: #4CAF50;}
+
+ul.NavBar li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+
+    ul.NavBar li.right,
+    ul.NavBar li {
+        float: none;
+    }
+}
+
+/*Body*/
+
 body {
     font-family: var(--font-family);
 }
+
+/*Footer*/
 
 footer {
     font-family: var(--font-family);
