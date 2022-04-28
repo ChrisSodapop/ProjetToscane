@@ -1,0 +1,17 @@
+:root {
+    --font-family: 'Italianno', cursive;
+}
+
+
+
+header {
+    font-family: var(--font-family);
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+footer {
+    font-family: var(--font-family);
+}
