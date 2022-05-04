@@ -11,4 +11,30 @@
     z-index: -1;
     }
 
+    .Night {
+        border-radius: 20px;
+        width: 100vw;
+        height: 100vh;
+        padding: 2rem;
+        opacity: var(--opacity);
+    }   
 
+    .Carnaval {
+        border-radius: 20px;
+        width: 100vw;
+        height: 100vh;
+        padding: 2rem;
+        opacity: var(--opacity);
+    } 
+    
+    .Logo1 {
+        padding: 2rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .Logo2 {
+        padding: 2rem;
+        width: 10rem;
+        height: 8rem;
+    }

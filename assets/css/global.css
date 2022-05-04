@@ -2,6 +2,7 @@
 
 :root {
     --font-family: 'Italianno', cursive;
+    --opacity: 85%;
 }
 
 /*Header*/
@@ -11,6 +12,11 @@ header {
 }
 
 /*NavBar*/
+
+.BlocIntro {
+    background-color: #4C4AB8;
+    opacity: 80%;
+}
 
 ul.NavBar {
     list-style-type: none;
@@ -23,14 +29,12 @@ ul.NavBar li {float: left;}
 
 ul.NavBar li a {
     display: flex;
-    color:rgba(red, green, rgb(1, 1, 56), alpha);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-ul.NavBar li a:hover:not(.active) {background-color: rgb(107, 154, 241);}
-
-ul.NavBar li a.active {background-color: #4CAF50;}
+ul.NavBar li a:hover:not(.active) {background-color: rgb(99, 137, 209);}
 
 ul.NavBar li.right {float: right;}
 
@@ -52,4 +56,11 @@ body {
 
 footer {
     font-family: var(--font-family);
+    background-color: #806DCC;
+    opacity: var(--opacity);
+}
+
+.BlocConclu {
+    display:inline-flex;
+    justify-content: space-between;
 }

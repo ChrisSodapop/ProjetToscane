@@ -9,3 +9,31 @@
     bottom: 0;
     z-index: -1;
     }
+
+    .Campo {
+        border-radius: 20px;
+        width: 100vw;
+        height: 100vh;
+        padding: 2rem;
+        opacity: var(--opacity);
+    }  
+    
+    .Panzanella {
+        border-radius: 20px;
+        width: 100vw;
+        height: 100vh;
+        padding: 2rem;
+        opacity: var(--opacity);
+    }
+
+    .Logo1 {
+        padding: 2rem;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .Logo2 {
+        padding: 2rem;
+        width: 10rem;
+        height: 8rem;
+    }
