@@ -3,12 +3,21 @@
 :root {
     --font-family: 'Italianno', cursive;
     --opacity: 85%;
+    --font-size: 4rem;
+    --padding: 2rem;
 }
 
 /*Header*/
 
 header {
     font-family: var(--font-family);
+}
+
+.TitlePage {
+    background-color: #AC60DB;
+    font-size: var(--font-size);
+    color: #fff;
+    text-align: center;
 }
 
 /*NavBar*/
@@ -52,15 +61,66 @@ body {
     font-family: var(--font-family);
 }
 
+.BlocHaut {
+    padding: var(--padding);
+}
+
+.BlocBas {
+    padding: var(--padding);
+}
+
+.Bloc2 {
+    background-color:whitesmoke;
+    width: 100vw;
+    height: 75vh;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 1rem;
+    opacity: var(--opacity);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Bloc4 {
+    background-color:whitesmoke;
+    width: 100vw;
+    height: 75vh;
+    font-size: 1.8rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 1rem;
+    opacity: var(--opacity);
+}
+
 /*Footer*/
 
 footer {
     font-family: var(--font-family);
-    background-color: #806DCC;
+    background-color: #AC60DB;
     opacity: var(--opacity);
 }
 
 .BlocConclu {
     display:inline-flex;
-    justify-content: space-between;
+}
+
+.Logo1 {
+    padding: var(--padding);
+    width: 4rem;
+    height: 2rem;
+}
+
+.Logo2 {
+    width: 4rem;
+    height: 2rem;
+    padding: var(--padding);
+}
+
+.LogIta {
+    display: flex;
+    justify-content: right;
 }

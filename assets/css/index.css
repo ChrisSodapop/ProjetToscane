@@ -13,28 +13,14 @@
 
     .Night {
         border-radius: 20px;
-        width: 100vw;
-        height: 100vh;
-        padding: 2rem;
+        width: 50vw;
+        height: 75vh;
         opacity: var(--opacity);
     }   
 
     .Carnaval {
         border-radius: 20px;
-        width: 100vw;
-        height: 100vh;
-        padding: 2rem;
+        width: 50vw;
+        height: 75vh;
         opacity: var(--opacity);
     } 
-    
-    .Logo1 {
-        padding: 2rem;
-        width: 10rem;
-        height: 8rem;
-    }
-
-    .Logo2 {
-        padding: 2rem;
-        width: 10rem;
-        height: 8rem;
-    }

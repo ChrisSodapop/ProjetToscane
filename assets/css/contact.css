@@ -12,27 +12,34 @@
 
     .Vecchio {
         border-radius: 20px;
-        width: 100vw;
-        height: 100vh;
-        padding: 2rem;
+        width: 85vw;
+        height: 75vh;
         opacity: var(--opacity);
     }  
     
     .Pitti {
-        width: 100vw;
-        height: 100vh;
-        padding: 2rem;
+        border-radius: 20px;
+        width: 85vw;
+        height: 75vh;
         opacity: var(--opacity);
     }
-
-    .Logo1 {
-        padding: 2rem;
-        width: 10rem;
-        height: 8rem;
+    
+    .BlocC1 {
+        padding: var(--padding);
+        display: flex;
+        justify-content: center;
     }
 
-    .Logo2 {
-        padding: 2rem;
-        width: 10rem;
-        height: 8rem;
+    .BlocC2 {
+        background-color: grey;
+        padding: var(--padding);
+        opacity: var(--opacity);
+        display: flex;
+        justify-content: center;
+    }
+
+    .BlocC3 {
+        padding: var(--padding);
+        display: flex;
+        justify-content: center;
     }
