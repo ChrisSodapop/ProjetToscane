@@ -36,10 +36,16 @@
         opacity: var(--opacity);
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin: 0 2rem 0 2rem;
+        border-radius: 20px;
+        height: 30vh;
     }
+
 
     .BlocC3 {
         padding: var(--padding);
         display: flex;
         justify-content: center;
     }
+

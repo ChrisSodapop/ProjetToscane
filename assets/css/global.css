@@ -18,13 +18,18 @@ header {
     font-size: var(--font-size);
     color: #fff;
     text-align: center;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*NavBar*/
 
 .BlocIntro {
     background-color: #4C4AB8;
-    opacity: 80%;
+    opacity: var(--opacity);
+    display: flex;
 }
 
 ul.NavBar {
@@ -33,6 +38,7 @@ ul.NavBar {
     padding: 0;
     overflow: hidden;
     font-size: 2rem;
+    width: 35vw;
 }
 ul.NavBar li {float: left;}
 
@@ -51,7 +57,7 @@ ul.NavBar li.right {float: right;}
 
     ul.NavBar li.right,
     ul.NavBar li {
-        float: none;
+      float: none;
     }
 }
 
@@ -71,13 +77,15 @@ body {
 
 .Bloc2 {
     background-color:whitesmoke;
-    width: 100vw;
+    width: 90vw;
     height: 75vh;
     font-size: 1.8rem;
     text-align: center;
     border-radius: 20px;
-    margin-left: 1rem;
     opacity: var(--opacity);
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 h2 {
@@ -85,15 +93,22 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .Bloc4 {
     background-color:whitesmoke;
-    width: 100vw;
+    width: 90vw;
     height: 75vh;
     font-size: 1.8rem;
     text-align: center;
     border-radius: 20px;
-    margin-left: 1rem;
     opacity: var(--opacity);
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
 
 /*Footer*/
@@ -105,7 +120,9 @@ footer {
 }
 
 .BlocConclu {
-    display:inline-flex;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .Logo1 {
@@ -120,7 +137,12 @@ footer {
     padding: var(--padding);
 }
 
-.LogIta {
+.Langages {
+    width: 6rem;
+    height: 2rem;
+    padding: var(--padding);
     display: flex;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
 }
+

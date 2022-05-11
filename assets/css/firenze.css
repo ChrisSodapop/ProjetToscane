@@ -12,14 +12,14 @@
 
     .Duomo {
         border-radius: 20px;
-        width: 100vw;
+        width: 90vw;
         height: 75vh;
         opacity: var(--opacity);
     }  
     
     .Fiorentina {
         border-radius: 20px;
-        width: 100vw;
+        width: 90vw;
         height: 75vh;
         opacity: var(--opacity);
     }
