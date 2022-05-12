@@ -11,17 +11,17 @@
 
 header {
     font-family: var(--font-family);
+    opacity: var(--opacity);
 }
 
 .BlocIntro {
     display: flex;
-    opacity: var(--opacity);
-}
+  }
 
 .TitlePage {
-    background-color: #AC60DB;
+    background-color: #CFCBF1;
     font-size: var(--font-size);
-    color: #fff;
+    color: black;
     text-align: center;
     width: 100vw;
     height: 30vh;
@@ -109,6 +109,19 @@ header {
 
 /*Body*/
 
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.6;
+  }
+
 body {
     font-family: var(--font-family);
 }
@@ -139,9 +152,7 @@ body {
     text-align: center;
     border-radius: 20px;
     overflow-y: scroll;
-    scrollbar-color: rebeccapurple green;
-    scrollbar-width: thin;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 h2 {
@@ -162,16 +173,14 @@ h3 {
     text-align: center;
     border-radius: 20px;
     overflow-y: scroll;
-    scrollbar-color: rebeccapurple green;
-    scrollbar-width: thin;
-    margin: auto;
+    margin: 1rem auto;
 }
 
 /*Footer*/
 
 footer {
     font-family: var(--font-family);
-    background-color: #AC60DB;
+    background-color: #CFCBF1;
     opacity: var(--opacity);
 }
 
@@ -200,3 +209,4 @@ footer {
     justify-content: center;
 }
 
+/*Media Queries*/
