@@ -13,12 +13,18 @@ header {
     font-family: var(--font-family);
 }
 
+.BlocIntro {
+    display: flex;
+    opacity: var(--opacity);
+}
+
 .TitlePage {
     background-color: #AC60DB;
     font-size: var(--font-size);
     color: #fff;
     text-align: center;
-    width: 80vw;
+    width: 100vw;
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,40 +32,80 @@ header {
 
 /*NavBar*/
 
-.BlocIntro {
-    opacity: var(--opacity);
-    display: flex;
+.BurgerMenu {
+    margin: -10px;
 }
 
-ul.NavBar {
-    list-style-type: none;
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: absolute;
+    top: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #060606;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: absolute;
+    top: -60px;
+    left: -100%;
+    width: 200px;
+    height: 20vh;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-size: 2rem;
-    width: 20vw;
-    background-color: #4C4AB8
-}
-ul.NavBar li {float: left;}
-
-ul.NavBar li a {
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #4C4AB8;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: whitesmoke;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 600;
     text-decoration: none;
-}
-ul.NavBar li a:hover:not(.active) {background-color: rgb(99, 137, 209);}
-
-ul.NavBar li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-
-    ul.NavBar li.right,
-    ul.NavBar li {
-      float: none;
-    }
-}
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
 
 /*Body*/
 
@@ -75,17 +121,27 @@ body {
     padding: var(--padding);
 }
 
+.Bloc1 {
+    display: flex;
+    justify-content: center;
+}
+
+.Bloc3 {
+    display: flex;
+    justify-content: center;
+}
+
 .Bloc2 {
-    background-color:whitesmoke;
-    width: 91vw;
+    background-color: whitesmoke;
+    width: 70vw;
     height: 35vh;
     font-size: 1.8rem;
     text-align: center;
     border-radius: 20px;
-    opacity: var(--opacity);
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+    margin: auto;
 }
 
 h2 {
@@ -99,16 +155,16 @@ h3 {
 }
 
 .Bloc4 {
-    background-color:whitesmoke;
-    width: 91vw;
+    background-color: whitesmoke;
+    width: 70vw;
     height: 35vh;
     font-size: 1.8rem;
     text-align: center;
     border-radius: 20px;
-    opacity: var(--opacity);
     overflow-y: scroll;
     scrollbar-color: rebeccapurple green;
     scrollbar-width: thin;
+    margin: auto;
 }
 
 /*Footer*/
@@ -122,24 +178,22 @@ footer {
 .BlocConclu {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .Logo1 {
     padding: var(--padding);
     width: 4rem;
-    height: 2rem;
 }
 
 .Logo2 {
     width: 4rem;
-    height: 2rem;
     padding: var(--padding);
 }
 
 .Langages {
-    width: 6rem;
-    height: 2rem;
+    width: 15rem;
+    font-size: 2rem;
     padding: var(--padding);
     display: flex;
     align-items: center;

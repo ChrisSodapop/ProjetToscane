@@ -9,26 +9,21 @@
     top: 0;
     bottom: 0;
     z-index: -1;
+    opacity: 0.6;
     }
 
     .Night {
+        object-fit: cover;
         border-radius: 20px;
-        width: 91vw;
-        height: 35vh;
-        opacity: var(--opacity);
+        width: 70vw;
+        height: 35vh;     
     }   
 
     .Carnaval {
+        object-fit: cover;
         border-radius: 20px;
-        width: 91vw;
-        height: 35vh;
-        opacity: var(--opacity);
+        width: 70vw;
+        height: 35vh; 
     } 
-
-    .JustTitle {
-        inline-size: 280px;
-        overflow-wrap: break-word;
-        line-height: 47px;
-    }
 
    
