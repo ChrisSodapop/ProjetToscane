@@ -209,6 +209,10 @@ footer {
     justify-content: center;
 }
 
+.NavBar {
+  display: none;
+}
+
 /*Media Queries*/
 
 @media screen and (min-width: 980px){
@@ -243,5 +247,21 @@ footer {
 
    .BurgerMenu {
      display: none;
+   }
+
+   .NavBar {
+     display: flex;
+     background-color:#4C4AB8 ;
+     height:8vh;
+     color: whitesmoke;
+   }
+
+   .BlocIntro {
+    display: block;
+   }
+
+   .NavBar ul li {
+   display: inline;
+   font-size: 30px;
    }
 }
