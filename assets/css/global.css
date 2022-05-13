@@ -210,3 +210,38 @@ footer {
 }
 
 /*Media Queries*/
+
+@media screen and (min-width: 980px){
+
+  .BlocHaut {
+    display: flex;
+    align-items:center;
+  }
+  .Bloc1 {
+    width:45vw;
+    height: 50vh;
+  }
+   .Bloc2 {
+     width:45vw;
+     height: 50vh;
+   }
+
+   .BlocBas {
+     display: flex;
+     align-items: center;
+   }
+
+   .Bloc3 {
+    width:45vw;
+    height: 50vh;
+   }
+
+   .Bloc4 {
+    width:45vw;
+    height: 50vh;
+   }
+
+   .BurgerMenu {
+     display: none;
+   }
+}

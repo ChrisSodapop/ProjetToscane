@@ -1,15 +1,13 @@
-    .Night {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh;     
-    }   
+.Night {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 70vw;
+    height: 35vh;
+}
 
-    .Carnaval {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh; 
-    } 
-
-   
+.Carnaval {
+    object-fit: cover;
+    border-radius: 20px;
+    width: 70vw;
+    height: 35vh;
+}
