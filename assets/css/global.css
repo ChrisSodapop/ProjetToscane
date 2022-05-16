@@ -137,11 +137,17 @@ body {
 .Bloc1 {
     display: flex;
     justify-content: center;
+    width: 70vw;
+    height: 35vh;
+    margin: auto;
 }
 
 .Bloc3 {
     display: flex;
     justify-content: center;
+    width: 70vw;
+    height: 35vh;
+    margin: auto;
 }
 
 .Bloc2 {
@@ -222,11 +228,11 @@ footer {
     align-items:center;
   }
   .Bloc1 {
-    width:45vw;
+    width: 45vw;
     height: 50vh;
   }
    .Bloc2 {
-     width:45vw;
+     width: 45vw;
      height: 50vh;
    }
 
@@ -250,18 +256,29 @@ footer {
    }
 
    .NavBar {
-     display: flex;
-     background-color:#4C4AB8 ;
-     height:8vh;
-     color: whitesmoke;
+    display: flex;
+    background-color:#4C4AB8 ;
    }
 
    .BlocIntro {
     display: block;
    }
 
+   .NavBar ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 8vh;
+   }
+
    .NavBar ul li {
-   display: inline;
-   font-size: 30px;
+     display: flex;
+     justify-content: space-between;
+   }
+
+   .NavBar ul li a {
+    color:whitesmoke;
+    padding: 7rem;
+    font-size: 1.2rem;
    }
 }

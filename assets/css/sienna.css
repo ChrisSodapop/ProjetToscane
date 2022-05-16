@@ -1,13 +1,10 @@
-    .Campo {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh;
-    }  
-    
-    .Panzanella {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh;  
-    }
+.Campo {
+    border-radius: 20px;
+    width:70vw;
+}
+
+.Panzanella {
+    border-radius: 20px;
+    width:70vw;
+}
+

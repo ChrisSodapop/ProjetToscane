@@ -1,13 +1,9 @@
 .Night {
-    object-fit: cover;
     border-radius: 20px;
-    width: 70vw;
-    height: 35vh;
+    width:70vw;
 }
 
 .Carnaval {
-    object-fit: cover;
     border-radius: 20px;
-    width: 70vw;
-    height: 35vh;
+    width:70vw;
 }

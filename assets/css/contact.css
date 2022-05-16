@@ -18,18 +18,6 @@
         justify-content: center;
     }
 
-    .BlocC2 {
-        background-color: grey;
-        opacity: var(--opacity);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        border-radius: 20px;
-        height: 35vh;
-        width: 70vw;
-        }
-
 
     .BlocC3 {
         padding: var(--padding);
@@ -39,10 +27,16 @@
 
     .formulaire {
         display: flex;
-        font-size: 2rem;
+        font-size: 1.5rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-color: grey;
+        opacity: var(--opacity);
+        border-radius: 20px;
+        height: 35vh;
+        width: 70vw;
+        margin: auto;
 }
 
     .formulaire input {
@@ -57,4 +51,25 @@
     .Submit {
         margin-top: 10px;
         width: 150px!important;
+    }
+
+    @media screen and (min-width: 980px) {
+      .formulaire {
+        border-radius: 20px;
+        height: 55vh;
+        width: 45vw;
+        margin: auto;
+      }
+      .Vecchio {
+        object-fit: cover;
+        border-radius: 20px;
+        width: 45vw;
+        height: 50vh; 
+    }  
+    .Pitti {
+        object-fit: cover;
+        border-radius: 20px;
+        width: 45vw;
+        height: 50vh; 
+    }
     }

@@ -1,13 +1,10 @@
-    .Pisa {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh;
-    }  
-    
-    .Fettunta {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh;
-    }
+.Pisa {
+    border-radius: 20px;
+    width:70vw;
+}
+
+.Fettunta {
+    border-radius: 20px;
+    width:70vw;
+}
+

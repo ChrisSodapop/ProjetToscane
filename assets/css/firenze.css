@@ -1,14 +1,11 @@
-    .Duomo {
-        object-fit: cover;
-        border-radius: 20px;
-        width:70vw;
-        height: 35vh; 
-    }  
-    
-    .Fiorentina {
-        object-fit: cover;
-        border-radius: 20px;
-        width: 70vw;
-        height: 35vh; 
-    }
+.Duomo {
+    border-radius: 20px;
+    width:70vw;
+}
+
+.Fiorentina {
+    border-radius: 20px;
+    width:70vw;
+}
+
     
