@@ -23,19 +23,16 @@ header {
     font-size: var(--font-size);
     color: black;
     text-align: center;
-    width: 100vw;
-    height: 20vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/*NavBar*/
+/*MenuBurger*/
 
 .BurgerMenu {
     margin: -10px;
-    /**/
-    z-index: 50;
 }
 
 #menu__toggle {
@@ -271,20 +268,23 @@ footer {
 
    .NavBar ul {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: center;
      height: 8vh;
+     width: 100%;
    }
 
    .NavBar ul li {
      display: flex;
-     justify-content: space-between;
+     justify-content:space-between;
    }
 
    .NavBar ul li a {
     color:whitesmoke;
-    padding: 7rem;
     font-size: 1.2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
    }
 
    .NavBar ul li a:hover {
