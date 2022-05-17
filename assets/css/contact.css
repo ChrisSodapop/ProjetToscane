@@ -25,6 +25,10 @@
         justify-content: center;
     }
 
+    .BlocC2 {
+        z-index: -1;
+    }
+
     .formulaire {
         display: flex;
         font-size: 1.5rem;

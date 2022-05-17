@@ -287,6 +287,10 @@ footer {
     font-size: 1.2rem;
    }
 
+   .NavBar ul li a:hover {
+      color: rgb(84, 192, 238);
+   }
+
    img {
     -webkit-transform: scale(1);
     transform: scale(1);
