@@ -45,3 +45,9 @@ function son8() {
   audio.volume = 1;
   audio.play();
 }
+
+function submit() {
+  const click = document.querySelector(".Submit");
+
+  click.onclick = submit();
+}
