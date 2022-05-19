@@ -1,7 +1,7 @@
-function lancer_son() {
+function son1() {
   let audio = document.getElementById("MonSon");
-  audio.volume = 1; // on met le son au maximum
-  audio.play(); // on lance le son
+  audio.volume = 1;
+  audio.play();
 }
 
 function son2() {
@@ -30,6 +30,18 @@ function son5() {
 
 function son6() {
   let audio = document.getElementById("MonSon6");
+  audio.volume = 1;
+  audio.play();
+}
+
+function son7() {
+  let audio = document.getElementById("MonSon7");
+  audio.volume = 1;
+  audio.play();
+}
+
+function son8() {
+  let audio = document.getElementById("MonSon8");
   audio.volume = 1;
   audio.play();
 }
